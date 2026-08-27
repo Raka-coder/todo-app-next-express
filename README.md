@@ -1,13 +1,13 @@
 # Next.js + Express Todo App
 
-A full-stack Todo application built with **Next.js 15** (Frontend), **Express** (Backend), and **MySQL** (Database).
+A full-stack Todo application built with **Next.js 16** (Frontend), **Express 5** (Backend), and **MySQL** (Database).
 
 ## Features
 
-- ✨ Modern, Dark Mode UI (Tailwind CSS)
+- ✨ Modern, Dark Mode UI (Tailwind CSS v4 & Radix UI)
 - ⚡ Optimistic UI Updates
-- 🔒 Strictly Typed Backend (TypeScript)
-- 🚀 Backend & Frontend Integration
+- 🔒 Strictly Typed Backend & Frontend (TypeScript)
+- 🚀 Clean REST API Integration
 
 ## Prerequisites
 
@@ -28,7 +28,7 @@ cd server
 cp .env.example .env
 
 # Run the initialization script
-npx tsx init-db.ts
+npm run init-db
 ```
 
 ### 2. Run the Application
